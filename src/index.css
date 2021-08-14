@@ -1,0 +1,63 @@
+html {
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    color: #444444;
+}
+
+h1{
+    color: #777777;
+}
+
+h3{
+    color: #444444;
+}
+
+a {
+    color: #0011bb;
+}
+
+Table{
+    width:100%;
+    font-size: 0.9rem;
+}
+
+Table tr th{
+    padding:10px 0px;
+    font-weight:bold;
+}
+
+Table tr td{
+    padding:2px 0px;
+    font-weight:bold;
+}
+
+a:visited{
+    color: #6600cc; 
+}
+
+.text-center{
+    text-align:center;
+}
+
+.font-weight-bold{
+    font-weight: bold;
+}
+
+.text-muted{
+    color: #777777;
+}
+
+@media (max-width: 576px){ 
+    h1{
+        font-size: 1rem;
+    }
+    Table{
+        font-size: 0.8rem;
+    }
+}

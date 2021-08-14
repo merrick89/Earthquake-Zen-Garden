@@ -1,0 +1,22 @@
+.profile-content{
+    display:flex;
+}
+
+.profile-image{
+    width:100%;
+}
+
+.profile-left{
+    max-width:180px;
+    padding:5px;
+}
+
+.profile-table tr td{
+    padding:5px;
+}
+
+@media (max-width: 576px){ 
+    .profile-content{
+        flex-direction:column;
+    }
+}
